@@ -23,11 +23,11 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/lukepistrol/SwiftLintPlugin",
-            from: "0.2.2"
+            exact: "0.2.2"
         ),
         .package(
             url: "https://github.com/ChimeHQ/TextFormation",
-            from: "0.6.7"
+            exact: "0.6.7"
         )
     ],
     targets: [
